@@ -1,0 +1,12 @@
+public class PatoSeñuelo extends Pato {
+    
+    public PatoSeñuelo() {
+        volable = new NoVuela();
+        cuaqueable = new CuaqueoMudo();
+    }
+
+    @Override
+    public void mostrar() {
+        System.out.println("Yo soy un Pato señuelo");
+    }
+}
