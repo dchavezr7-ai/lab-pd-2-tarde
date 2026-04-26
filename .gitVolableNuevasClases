@@ -1,0 +1,32 @@
+
+/**
+ *
+ * @author sistemas
+ */
+public interface Volable {
+   void volar();
+}
+/**
+ *
+ * @author sistemas
+ */
+public class NoVuela implements Volable {
+    @Override
+    public void volar(){
+        System.out.println("Incapaz de Volar");
+}
+    
+}
+
+
+/**
+ *
+ * @author sistemas
+ */
+public class VueloConAlas implements Volable {
+    @Override
+    public void volar(){
+        System.out.println("Puedo volar con mis alas");
+    }
+    
+}
